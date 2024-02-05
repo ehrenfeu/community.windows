@@ -52,7 +52,7 @@ options:
     type: str
   username:
     description:
-    - The account name of security identifier (SID) for the profile.
+    - The account name or security identifier (SID) for the profile.
     - This must be set when I(state) is C(present) and must be a valid account
       or the SID of a valid account.
     - When I(state) is C(absent) then this must still be a valid account number
